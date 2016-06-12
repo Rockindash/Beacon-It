@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back 1a" translatesAutoresizingMaskIntoConstraints="NO" id="SnS-db-usx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFn-cZ-dYc">
+                                <rect key="frame" x="17" y="28" width="340" height="240"/>
+                                <state key="normal" image="1a"/>
+                                <connections>
+                                    <segue destination="WYB-AI-9jf" kind="show" id="Kl9-Es-L6W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WrG-0s-jLg">
+                                <rect key="frame" x="17" y="182" width="340" height="321"/>
+                                <state key="normal" image="2a"/>
+                                <connections>
+                                    <segue destination="gqD-hV-kE1" kind="show" id="Edp-Jw-xKu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QX-Ss-kp9">
+                                <rect key="frame" x="17" y="415" width="341" height="241"/>
+                                <state key="normal" image="3a"/>
+                                <connections>
+                                    <segue destination="ly8-wl-pxQ" kind="show" id="QRY-UO-mjA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="25I-6o-Cru" kind="show" id="WBu-K5-IxV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="349.5"/>
+        </scene>
+        <!--Last View Controller-->
+        <scene sceneID="ci5-SQ-1F6">
+            <objects>
+                <viewController id="ly8-wl-pxQ" customClass="LastViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tgn-vw-SZS"/>
+                        <viewControllerLayoutGuide type="bottom" id="AHW-tc-cem"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O7K-ac-5WM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greeen" translatesAutoresizingMaskIntoConstraints="NO" id="zxC-IW-OF5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CIM-Dn-bC8">
+                                <rect key="frame" x="20" y="47" width="335" height="153"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzX-rX-pkW">
+                                <rect key="frame" x="33" y="225" width="309" height="330"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etA-id-JqW">
+                                <rect key="frame" x="0.0" y="612" width="375" height="55"/>
+                                <state key="normal" image="goBack"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="q9e-Eq-qgd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="img" destination="CIM-Dn-bC8" id="l4g-bl-yNi"/>
+                        <outlet property="txt" destination="kzX-rX-pkW" id="vFP-T7-1k9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k87-se-aos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="1193.5"/>
+        </scene>
+        <!--Tenth View Controller-->
+        <scene sceneID="nET-sM-gGe">
+            <objects>
+                <viewController id="qCT-Ub-gcn" customClass="TenthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RAV-yr-WhY"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Q1-e1-MdN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V1C-Dy-tp3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PINKBACK" translatesAutoresizingMaskIntoConstraints="NO" id="r8c-tz-BcA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dQp-hC-ihq">
+                                <rect key="frame" x="21" y="45" width="332" height="530"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ezg-W5-qiC">
+                                <rect key="frame" x="67" y="500" width="241" height="29"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="seg:" destination="qCT-Ub-gcn" eventType="valueChanged" id="2Mj-fp-S6v"/>
+                                    <action selector="segmentedControl:" destination="UGZ-dh-Vxw" eventType="valueChanged" id="a71-oD-Uqt"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpl-n4-FrM">
+                                <rect key="frame" x="0.0" y="610" width="375" height="57"/>
+                                <connections>
+                                    <segue destination="WYB-AI-9jf" kind="show" id="cv3-Ws-xQh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwW-xJ-M7Q">
+                                <rect key="frame" x="295" y="527" width="80" height="80"/>
+                                <state key="normal" image="Current"/>
+                                <connections>
+                                    <action selector="clk:" destination="qCT-Ub-gcn" eventType="touchUpInside" id="c5Q-n7-9GN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Map" destination="dQp-hC-ihq" id="Tic-BT-3Qx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9QF-27-H04" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.5" y="-1249.5"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="qPS-TZ-927">
+            <objects>
+                <viewController id="WYB-AI-9jf" customClass="FirstViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2o7-sm-fNR"/>
+                        <viewControllerLayoutGuide type="bottom" id="29x-36-B9w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="05V-zH-vbW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fvBack" translatesAutoresizingMaskIntoConstraints="NO" id="0Wu-6E-DwW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CITY TOUR" translatesAutoresizingMaskIntoConstraints="NO" id="2lN-nz-QOh">
+                                <rect key="frame" x="106" y="41" width="163" height="28"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maN-mB-JfR">
+                                <rect key="frame" x="12" y="351" width="350" height="200"/>
+                                <state key="normal" image="CITY TOUR-1"/>
+                                <connections>
+                                    <segue destination="lpe-Wm-sCl" kind="show" id="vLR-wH-LXx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7b-7H-2py">
+                                <rect key="frame" x="128" y="598" width="119" height="31"/>
+                                <state key="normal" image="BACK"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Ajq-Cx-ykv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5i-Of-XhP">
+                                <rect key="frame" x="12" y="131" width="350" height="200"/>
+                                <state key="normal" image="HOT SPOTS"/>
+                                <connections>
+                                    <segue destination="qCT-Ub-gcn" kind="show" id="bbn-at-aef"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4NQ-Ie-gRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.5" y="-437.5"/>
+        </scene>
+        <!--Eleventh View Controller-->
+        <scene sceneID="HrJ-SS-xZE">
+            <objects>
+                <viewController id="lpe-Wm-sCl" customClass="EleventhViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="em8-6F-xuk"/>
+                        <viewControllerLayoutGuide type="bottom" id="g9N-PK-Q3w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oIb-ry-wch">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLUEBACK" translatesAutoresizingMaskIntoConstraints="NO" id="FeM-u5-7OM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1jg-Sy-31u">
+                                <rect key="frame" x="20" y="42" width="332" height="392"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JUa-KO-3bu">
+                                <rect key="frame" x="64" y="369" width="241" height="29"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="UGZ-dh-Vxw" eventType="valueChanged" id="uVN-t3-37i"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4D-89-K4u">
+                                <rect key="frame" x="292" y="387" width="80" height="80"/>
+                                <state key="normal" image="Current"/>
+                                <connections>
+                                    <action selector="currentLocation:" destination="UGZ-dh-Vxw" eventType="touchUpInside" id="cMc-ap-sZm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeI-mI-PKf">
+                                <rect key="frame" x="20" y="467" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOTUS TEMPLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhv-mD-vA2">
+                                <rect key="frame" x="20" y="492" width="253" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-0n-58d">
+                                <rect key="frame" x="0.0" y="559" width="375" height="50"/>
+                                <state key="normal" image="SKIP"/>
+                                <connections>
+                                    <segue destination="kGs-uV-4hf" kind="show" id="pgG-n8-25R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kn4-d3-AvO">
+                                <rect key="frame" x="0.0" y="612" width="375" height="55"/>
+                                <connections>
+                                    <segue destination="WYB-AI-9jf" kind="show" id="afc-S5-1aw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Map" destination="1jg-Sy-31u" id="hqy-FQ-wD8"/>
+                        <segue destination="25I-6o-Cru" kind="show" id="ceg-K1-00n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FKa-y2-MiH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539.5" y="-437.5"/>
+        </scene>
+        <!--Twel View Controller-->
+        <scene sceneID="4HM-o0-osq">
+            <objects>
+                <viewController id="25I-6o-Cru" customClass="TwelViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6tN-9p-TAm"/>
+                        <viewControllerLayoutGuide type="bottom" id="v9G-ar-A7a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QK9-lH-V2B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOTUS" translatesAutoresizingMaskIntoConstraints="NO" id="VAC-jZ-vbE">
+                                <rect key="frame" x="-2" y="-2" width="377" height="669"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ng-SJ-tTp">
+                                <rect key="frame" x="9" y="211" width="352" height="386"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The Lotus Temple, located in New Delhi, India, is a Bahá'í House of Worship completed in 1986. Notable for its flowerlike shape, it serves as the Mother Temple of the Indian subcontinent and has become a prominent attraction in the city. The Lotus Temple has won numerous architectural awards and been featured in hundreds of newspaper and magazine articles.[1] Like all Bahá'í Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad "petals" arranged in clusters of three to form nine sides,[2][not in citation given] with nine doors opening onto a central hall with height of slightly over 40 metres[3] and a capacity of 2,500 people. A 2001 CNN report referred to it as the most visited building in the world.</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Type    House of Worship">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Architectural style    Expressionist">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Location    New Delhi, India">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Coordinates    28.553325°N 77.258600°ECoordinates: 28.553325°N 77.258600°E">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Completed    13 November 1986">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Opened    24 December 1986">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Height    34.27 metres (112.4 ft)">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Dimensions">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Diameter    70 metres (230 ft)">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Technical details">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Structural system    Concrete frame and precast concrete ribbed roof">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Design and construction">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Architect    Fariborz Sahba">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Structural engineer    Flint &amp; Neill">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Other information">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Seating capacity    1,300">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="11" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="16.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.17254901960784313" green="0.17647058823529413" blue="0.18823529411764706" alpha="1" colorSpace="deviceRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mte-xV-5FN">
+                                <rect key="frame" x="-2" y="612" width="377" height="55"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="rj3-th-XJa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gIX-aU-EQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539.5" y="-1213.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hY3-Kj-arj">
+            <objects>
+                <viewController id="kGs-uV-4hf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ecd-pT-4ue"/>
+                        <viewControllerLayoutGuide type="bottom" id="SqC-Nh-yQH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Icx-qe-ATK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GREENBACK" translatesAutoresizingMaskIntoConstraints="NO" id="GAP-UZ-HTe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Ma-PP-eca">
+                                <rect key="frame" x="20" y="43" width="332" height="392"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Noa-xN-LVs">
+                                <rect key="frame" x="64" y="371" width="241" height="29"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="UGZ-dh-Vxw" eventType="valueChanged" id="8ir-5P-qD2"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTg-ks-m6I">
+                                <rect key="frame" x="292" y="388" width="80" height="80"/>
+                                <state key="normal" image="Current"/>
+                                <connections>
+                                    <action selector="currentLocation:" destination="UGZ-dh-Vxw" eventType="touchUpInside" id="zGO-2c-tWO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STV-Wc-Hv5">
+                                <rect key="frame" x="20" y="468" width="95" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR0-3G-D0T">
+                                <rect key="frame" x="0.0" y="560" width="375" height="50"/>
+                                <state key="normal" image="SKIP"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SId-m5-3AE">
+                                <rect key="frame" x="0.0" y="611" width="375" height="56"/>
+                                <connections>
+                                    <segue destination="WYB-AI-9jf" kind="show" id="rfg-Z5-MWt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KALKAJI MANDIR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYt-4d-x17">
+                                <rect key="frame" x="20" y="493" width="273" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kK-eV-Cnn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084.5" y="-437.5"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="wVb-bG-ME7">
+            <objects>
+                <viewController id="gqD-hV-kE1" customClass="SecondViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eM6-15-A6Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="pZP-hT-c1u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tq4-yu-Wx1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back 2a" translatesAutoresizingMaskIntoConstraints="NO" id="y80-aB-8Kh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpC-4c-kwz">
+                                <rect key="frame" x="17" y="398" width="340" height="240"/>
+                                <state key="normal" image="RESTAURANT"/>
+                                <connections>
+                                    <segue destination="VJb-8k-tKa" kind="show" id="PtV-7W-i96"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5L-Ho-7QY">
+                                <rect key="frame" x="17" y="217" width="340" height="240"/>
+                                <state key="normal" image="ZOO"/>
+                                <connections>
+                                    <segue destination="Jkl-Or-39j" kind="show" id="7tk-hT-2bL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSt-XH-YKh">
+                                <rect key="frame" x="17" y="39" width="340" height="240"/>
+                                <state key="normal" image="MUSEUM"/>
+                                <connections>
+                                    <segue destination="yxh-ap-KO2" kind="show" id="zA4-7m-aiq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EXPLORE" translatesAutoresizingMaskIntoConstraints="NO" id="i3s-GB-7rm">
+                                <rect key="frame" x="29" y="33" width="138" height="28"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpr-q2-ujO">
+                                <rect key="frame" x="229" y="607" width="119" height="31"/>
+                                <state key="normal" image="BACK"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="yZX-Ub-Ika"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpf-uX-95A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.5" y="349.5"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="RlJ-Tt-A30">
+            <objects>
+                <viewController id="Jkl-Or-39j" customClass="FifthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MGe-Uq-aMm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ukn-xI-l5B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dun-01-XiO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Zoo PAGE" translatesAutoresizingMaskIntoConstraints="NO" id="J05-Se-MKl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQO-UF-eDS">
+                                <rect key="frame" x="31" y="212" width="313" height="347"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dvcek
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PV-MZ-KoU">
+                                <rect key="frame" x="0.0" y="609" width="375" height="58"/>
+                                <connections>
+                                    <segue destination="H0S-h0-E6K" kind="show" id="2XL-QW-ltZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0T-Vl-fwf">
+                                <rect key="frame" x="20" y="45" width="60" height="60"/>
+                                <state key="normal" image="back_single"/>
+                                <connections>
+                                    <segue destination="gqD-hV-kE1" kind="show" id="vGX-bD-rQL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEz-IJ-tWm">
+                                <rect key="frame" x="152" y="531" width="70" height="70"/>
+                                <state key="normal" image="call"/>
+                                <connections>
+                                    <action selector="call:" destination="Jkl-Or-39j" eventType="touchUpInside" id="kPl-G8-NO3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7co-Ou-X9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2067.5" y="349.5"/>
+        </scene>
+        <!--Sixth View Controller-->
+        <scene sceneID="LXl-zD-Zgd">
+            <objects>
+                <viewController id="VJb-8k-tKa" customClass="SixthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hxN-e0-azI"/>
+                        <viewControllerLayoutGuide type="bottom" id="pW5-aB-iMr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jOU-a8-F1s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RESTAURANT PAGE" translatesAutoresizingMaskIntoConstraints="NO" id="VO3-2B-zLt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOq-eD-YLU">
+                                <rect key="frame" x="20" y="44" width="60" height="60"/>
+                                <state key="normal" image="back_single"/>
+                                <connections>
+                                    <segue destination="gqD-hV-kE1" kind="show" id="9Tc-76-b07"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="804-cs-qGV">
+                                <rect key="frame" x="31" y="206" width="313" height="347"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dvcek
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2K-cN-8vR">
+                                <rect key="frame" x="0.0" y="611" width="375" height="56"/>
+                                <connections>
+                                    <segue destination="EDe-OB-ruh" kind="show" id="3mi-bm-f3C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTn-Wd-VpI">
+                                <rect key="frame" x="152" y="533" width="70" height="70"/>
+                                <state key="normal" image="call"/>
+                                <connections>
+                                    <action selector="call:" destination="VJb-8k-tKa" eventType="touchUpInside" id="bK9-1t-8H4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awv-6b-XWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2633.5" y="349.5"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="chW-1V-YB0">
+            <objects>
+                <viewController id="yxh-ap-KO2" customClass="FourthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PlB-hh-je3"/>
+                        <viewControllerLayoutGuide type="bottom" id="wMF-9w-9S3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ex2-kE-A1e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MUSEUM PAGE" translatesAutoresizingMaskIntoConstraints="NO" id="W2d-rU-BGo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kv1-A2-fXI">
+                                <rect key="frame" x="0.0" y="610" width="375" height="57"/>
+                                <connections>
+                                    <segue destination="UGZ-dh-Vxw" kind="show" id="L7P-gw-8bz"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z68-g6-z0k">
+                                <rect key="frame" x="33" y="209" width="313" height="347"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dvcek
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv
+The foremost responsibility of the National Gallery of Modern Art is to ensure quality and to set and maintain standards of excellence. The aesthetic and educational purposes are not only defined in the aims and objectives of the National Gallery of Modern Art, but efforts are also being made so that they become implicit in its organization and pervade all its activities.
+
+Above all, the National Gallery of Modern Art helps people to look at the works of modern art with greater joy, understanding and knowledge by extending their relationship with our daily life and experiencing them as vital expressions of the human spirit.dv</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUl-GH-hSs">
+                                <rect key="frame" x="20" y="48" width="60" height="60"/>
+                                <state key="normal" image="back_single"/>
+                                <connections>
+                                    <segue destination="gqD-hV-kE1" kind="show" id="CnM-M9-2GQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1d-6x-jo0">
+                                <rect key="frame" x="152" y="532" width="70" height="70"/>
+                                <state key="normal" image="call"/>
+                                <connections>
+                                    <action selector="call:" destination="yxh-ap-KO2" eventType="touchUpInside" id="GJ1-h7-FmN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pAX-Mx-ho7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539.5" y="349.5"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="oIJ-eK-AM3">
+            <objects>
+                <viewController id="jua-mv-fFn" customClass="ThirdViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qzB-Jt-mof"/>
+                        <viewControllerLayoutGuide type="bottom" id="nsu-go-p0c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6n0-Ua-fnu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back 3a" translatesAutoresizingMaskIntoConstraints="NO" id="rTt-lt-JlB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MORE ..." translatesAutoresizingMaskIntoConstraints="NO" id="H37-Rd-jYC">
+                                <rect key="frame" x="124" y="45" width="126" height="28"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqj-xw-RYp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.5" y="1115.5"/>
+        </scene>
+        <!--Seventh View Controller-->
+        <scene sceneID="J5R-1p-LhF">
+            <objects>
+                <viewController id="UGZ-dh-Vxw" customClass="SeventhViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DFv-tm-ZJG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Npq-A5-Ivm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G3G-Ol-1SJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PINKBACK" translatesAutoresizingMaskIntoConstraints="NO" id="ieD-Pr-5rg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ur7-VI-4EJ">
+                                <rect key="frame" x="0.0" y="610" width="375" height="57"/>
+                                <connections>
+                                    <segue destination="yxh-ap-KO2" kind="show" id="kuJ-Pj-vuf"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MDN-05-1LV">
+                                <rect key="frame" x="23" y="39" width="332" height="530"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="16n-GR-86I">
+                                <rect key="frame" x="67" y="503" width="241" height="29"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="UGZ-dh-Vxw" eventType="valueChanged" id="WxH-Kc-n5d"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2m-Gv-UKh">
+                                <rect key="frame" x="295" y="522" width="80" height="80"/>
+                                <state key="normal" image="Current"/>
+                                <connections>
+                                    <action selector="currentLocation:" destination="UGZ-dh-Vxw" eventType="touchUpInside" id="MMx-Eh-UuX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Map" destination="MDN-05-1LV" id="ZMj-69-MKp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bn0-nn-Nvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539.5" y="1209.5"/>
+        </scene>
+        <!--Eigth View Controller-->
+        <scene sceneID="jVq-9R-I2d">
+            <objects>
+                <viewController id="H0S-h0-E6K" customClass="EigthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YMv-E0-yrW"/>
+                        <viewControllerLayoutGuide type="bottom" id="1B3-X3-zIN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="26O-03-1Ob">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLUEBACK" translatesAutoresizingMaskIntoConstraints="NO" id="zSK-KV-hmX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVs-6a-i1q">
+                                <rect key="frame" x="0.0" y="610" width="375" height="57"/>
+                                <connections>
+                                    <segue destination="Jkl-Or-39j" kind="show" id="szi-Z5-kVo"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vfx-vd-RjV">
+                                <rect key="frame" x="21" y="44" width="332" height="530"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="usV-ot-car" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2067.5" y="1209.5"/>
+        </scene>
+        <!--Ninth View Controller-->
+        <scene sceneID="Qjh-cc-8Ln">
+            <objects>
+                <viewController id="EDe-OB-ruh" customClass="NinthViewController" customModule="Beacon_It" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q2S-vf-ETp"/>
+                        <viewControllerLayoutGuide type="bottom" id="3tm-se-eli"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zB0-lp-c4d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GREENBACK" translatesAutoresizingMaskIntoConstraints="NO" id="5yi-Nn-uxD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfO-vZ-k4W">
+                                <rect key="frame" x="0.0" y="610" width="375" height="57"/>
+                                <connections>
+                                    <segue destination="VJb-8k-tKa" kind="show" id="qNs-5Q-qXA"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mnf-50-3eR">
+                                <rect key="frame" x="21" y="46" width="332" height="530"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRW-xT-jbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2633.5" y="1209.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1a" width="340" height="240"/>
+        <image name="2a" width="340" height="321"/>
+        <image name="3a" width="341" height="241"/>
+        <image name="BACK" width="119" height="31"/>
+        <image name="BLUEBACK" width="375" height="667"/>
+        <image name="Back 1a" width="375" height="667"/>
+        <image name="Back 2a" width="375" height="667"/>
+        <image name="Back 3a" width="375" height="667"/>
+        <image name="CITY TOUR" width="163" height="28"/>
+        <image name="CITY TOUR-1" width="350" height="200"/>
+        <image name="Current" width="128" height="127"/>
+        <image name="EXPLORE" width="138" height="28"/>
+        <image name="GREENBACK" width="375" height="667"/>
+        <image name="HOT SPOTS" width="361" height="212"/>
+        <image name="LOTUS" width="375" height="667"/>
+        <image name="MORE ..." width="126" height="28"/>
+        <image name="MUSEUM" width="340" height="240"/>
+        <image name="MUSEUM PAGE" width="375" height="667"/>
+        <image name="PINKBACK" width="375" height="667"/>
+        <image name="RESTAURANT" width="340" height="240"/>
+        <image name="RESTAURANT PAGE" width="375" height="667"/>
+        <image name="SKIP" width="375" height="55"/>
+        <image name="ZOO" width="340" height="240"/>
+        <image name="Zoo PAGE" width="375" height="667"/>
+        <image name="back_single" width="128" height="128"/>
+        <image name="call" width="800" height="800"/>
+        <image name="fvBack" width="375" height="667"/>
+        <image name="goBack" width="364" height="55"/>
+        <image name="greeen" width="375" height="667"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="szi-Z5-kVo"/>
+        <segue reference="ceg-K1-00n"/>
+        <segue reference="cv3-Ws-xQh"/>
+        <segue reference="Ajq-Cx-ykv"/>
+        <segue reference="Edp-Jw-xKu"/>
+        <segue reference="kuJ-Pj-vuf"/>
+        <segue reference="qNs-5Q-qXA"/>
+    </inferredMetricsTieBreakers>
+</document>

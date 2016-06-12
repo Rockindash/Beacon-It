@@ -1,0 +1,36 @@
+//
+//  NinthViewController.swift
+//  Beacon It
+//
+//  Created by amol kumar on 12/06/16.
+//  Copyright © 2016 amol kumar. All rights reserved.
+//
+
+import UIKit
+import MapKit
+
+class NinthViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
